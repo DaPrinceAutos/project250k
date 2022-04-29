@@ -1,0 +1,16 @@
+#Service Type nodePort
+apiVersion: v1
+kind: Service
+metadata:
+  name: DaPrince-App
+  labels:
+    app: class-app
+spec:
+  selector:
+    app: class-app
+
+  type: NodePort
+  ports:
+  - nodePort: 32061
+    port: 8080
+    targetPort: 8080

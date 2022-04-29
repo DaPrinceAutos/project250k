@@ -8,12 +8,12 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.theITern</groupId>
+	<groupId>com.Project1</groupId>
 	<artifactId>theITern</artifactId>
 	<version>1.0-RELEASE</version>
 	<packaging>war</packaging>
 	<name>theITerAPP</name>
-	<description>Class DevOps project at theITern</description>
+	<description>Class DevOps project at Project1</description>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -71,7 +71,7 @@
     <repository>
         <id>central</id>
         <name>ip-172-31-85-166.ec2.internal-releases</name>
-        <url>http://54.175.130.126:8082/artifactory/project-250k-libs-release</url>
+        <url>http://54.175.130.126:8082/artifactory/project-250k-libs-release-local</url>
     </repository>
 </distributionManagement>
 
