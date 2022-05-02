@@ -1,0 +1,16 @@
+#Service Type nodePort
+apiVersion: v1
+kind: Service
+metadata:
+  name: class-app
+  labels:
+    app: class-app
+spec:
+  selector:
+    app: class-app
+
+  type: NodePort
+  ports:
+  - nodePort: 32011
+    port: 8080
+    targetPort: 8080
