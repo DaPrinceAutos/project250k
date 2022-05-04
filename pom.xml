@@ -74,6 +74,5 @@
         <url>http://54.175.130.126:8082/artifactory/project-250k-libs-release</url>
     </repository>
 </distributionManagement>
-
 </project>
 
